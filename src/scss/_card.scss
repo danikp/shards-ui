@@ -61,7 +61,7 @@
 }
 
 .card-subtitle {
-  margin-top: -($card-spacer-y / 2);
+  margin-top: math.div($card-spacer-y, -2);
 }
 
 .card-link {
@@ -112,8 +112,8 @@
 }
 
 .card-header-pills {
-  margin-right: -($card-spacer-x / 2);
-  margin-left: -($card-spacer-x / 2);
+  margin-right: math.div($card-spacer-x, -2);
+  margin-left: math.div($card-spacer-x, -2);
 
   &:hover {
     background: transparent;
